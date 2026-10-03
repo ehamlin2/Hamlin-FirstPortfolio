@@ -1,0 +1,104 @@
+/* CSS by Elisabeth Hamlin */
+
+/* Color Palette
+Spanish Moss= #84BFA4
+Sea Mist= #BFD9CD
+Marsh Grass= #BFA36F
+Sea Salt= #F2F2F2
+Oyster Shell= #EADCC1
+Pluff Mud= #2B2118
+*/
+
+/* GLOBAL (base) MOBILE FIRST */
+body {
+    background-color: #F2F2F2; /* Sea Salt */
+    color: #2B2118; /* Pluff Mud */
+    font-family: 'Arial', sans-serif;  
+}
+    
+/* HEADER */
+
+.logo {
+    width:300px;
+    max-width: 100%;
+    margin: auto;
+}
+
+header {
+    background-color: #FFFFFF; 
+    padding: 1rem;
+    text-align: center;
+    font-family: "filmotype-lacrosse", sans-serif;
+    font-style:normal;
+    font-size: 1.25rem;
+}
+
+/* NAVIGATION */
+
+nav {
+    background-color: #BFD9CD; /* Sea Mist */
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    padding: 0.75rem 1rem;
+    color: #2B2118; /* Pluff Mud */
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: #84BFA4; /* Spanish Moss */
+}
+
+
+main h2 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    color: #2B2118; /* Pluff Mud */  
+}
+
+#places ul, #people ul, #pets ul {
+    list-style: none;
+    margin: 0 0 1.5rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+
+#places section, #people section, #pets section {
+    background-color: #EADCC1; /* Oyster Shell */
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+/* MEDIA QUERIES (desktop) */
+@media (min-width: 680px) {
+    #places ul, #people ul, #pets ul {
+        gap: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav ul {
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+}
