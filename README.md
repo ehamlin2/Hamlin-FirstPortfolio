@@ -7,7 +7,7 @@ A responsive, multi-page portfolio website for Fables & Frames Photography. The 
 
 The site includes pages:
 index.html: Home page with an introduction, featured work, experience, equipment, education, and contact links
-people.html: Portfolio gallery for graduation, family, maternity, and headshot photography
+people.html: Portfolio gallery for graduation, family, maternity, and head shot photography
 places.html: Portfolio gallery for Japan, Charleston, Malaga, and Yosemite
 pets.html: Portfolio gallery for rescue dogs, pet photography, and wildlife
 
