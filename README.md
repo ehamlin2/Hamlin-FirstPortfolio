@@ -15,4 +15,4 @@ The CSS is responsive.
 Page content and theme provided by AI. 
 All HTML and CSS is created by the student.
 
-published url: 
+published url: https://ehamlin2.github.io/Hamlin-FirstPortfolio/
