@@ -6,5 +6,5 @@ A responsive, multi-page portfolio website for Fables & Frames Photography. The 
 The HTML is semantic and validated. 
 The CSS is responsive. 
 There is no Javascript. 
-Page content theme provided by AI. 
+Page content and theme provided by AI. 
 All HTML and CSS is created by the student.
