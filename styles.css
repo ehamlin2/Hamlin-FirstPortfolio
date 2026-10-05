@@ -103,11 +103,7 @@ main h2 {
     text-align: center;
 }
 
-.photo-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.75rem;
-}
+
 
 .photo-grid img {
     width: 100%;
@@ -132,6 +128,8 @@ main h2 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
     padding: 1rem;
+    max-width: 900;
+    margin: 0 auto;
 }
 
 .card {
@@ -214,8 +212,8 @@ img {
 
 .photo-grid {
     display: grid;
-   column-count: 2;
-   column-gap: 0.75rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
 }
 
 .photo-grid img {
@@ -252,10 +250,27 @@ aside, footer {
     text-align: center;
 }
 
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #84BFA4;   /* Spanish Moss */
+    color: #2B2118;  /* Pluff Mud */
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 999px;
+}
+
+.button:hover,
+.button:focus-visible {
+    background-color: #BFA36F; /* Marsh Grass */
+}
+
 footer {
     background-color: #2B2118;
     color: #F2F2F2;
 }
+
+
 
 /* MEDIA QUERIES (desktop) */
 @media (min-width: 680px) {
