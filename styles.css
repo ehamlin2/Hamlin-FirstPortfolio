@@ -11,32 +11,35 @@ Pluff Mud= #2B2118
 
 /* GLOBAL (base) MOBILE FIRST */
 body {
-    background-color: #84BFA4; /* Spanish Moss */
-    color: #2B2118; /* Pluff Mud */
-    font-family: 'Arial', sans-serif;  
+    background-color: #84BFA4;
+    /* Spanish Moss */
+    color: #2B2118;
+    /* Pluff Mud */
+    font-family: 'Arial', sans-serif;
 }
-    
+
 /* HEADER */
 
 .logo {
-    width:300px;
+    width: 300px;
     max-width: 100%;
     margin: auto;
 }
 
 header {
-    background-color: #FFFFFF; 
+    background-color: #FFFFFF;
     padding: 1rem;
     text-align: center;
     font-family: "filmotype-lacrosse", sans-serif;
-    font-style:normal;
+    font-style: normal;
     font-size: 1.25rem;
 }
 
 /* NAVIGATION */
 
 nav {
-    background-color: #BFD9CD; /* Sea Mist */
+    background-color: #BFD9CD;
+    /* Sea Mist */
     padding: 0.5rem;
 }
 
@@ -52,13 +55,15 @@ nav ul {
 nav a {
     display: block;
     padding: 0.75rem 1rem;
-    color: #2B2118; /* Pluff Mud */
+    color: #2B2118;
+    /* Pluff Mud */
     text-decoration: none;
     border-radius: 4px;
 }
 
 nav a:hover {
-    background-color: #84BFA4; /* Spanish Moss */
+    background-color: #84BFA4;
+    /* Spanish Moss */
 }
 
 /* MAIN CONTENT */
@@ -67,13 +72,17 @@ main h2 {
     font-size: 1.75rem;
     margin-bottom: 0.5rem;
     padding: 0.75rem 1rem;
-    display:block;
+    display: block;
     justify-content: flex-start;
-    color: #BFA36F; /* Marsh Grass */ 
-    background-color: #2B2118; /* Pluff Mud */ 
+    color: #BFA36F;
+    /* Marsh Grass */
+    background-color: #2B2118;
+    /* Pluff Mud */
 }
-   
-#places ul, #people ul, #pets ul {
+
+#places ul,
+#people ul,
+#pets ul {
     list-style: none;
     margin: 0 0 1.5rem;
     display: block;
@@ -81,22 +90,32 @@ main h2 {
     flex-direction: column;
     justify-content: flex-start;
     gap: 0.5rem;
-    background-color: #BFD9CD; /* Sea Mist */
-    color: #2B2118; /* Pluff Mud */
+    background-color: #BFD9CD;
+    /* Sea Mist */
+    color: #2B2118;
+    /* Pluff Mud */
 }
 
-#places ul a:hover, #people ul a:hover, #pets ul a:hover {
-    background-color: #84BFA4; /* Spanish Moss */
+#places ul a:hover,
+#people ul a:hover,
+#pets ul a:hover {
+    background-color: #84BFA4;
+    /* Spanish Moss */
 }
 
-#places section, #people section, #pets section {
-    background-color: #EADCC1; /* Oyster Shell */
+#places section,
+#people section,
+#pets section {
+    background-color: #EADCC1;
+    /* Oyster Shell */
     padding: 1.5rem;
     border-radius: 8px;
     text-align: center;
 }
 
-#places section p, #people section p, #pets section p {
+#places section p,
+#people section p,
+#pets section p {
     line-height: 1.5;
     max-width: 600px;
     margin: 0 auto 1rem;
@@ -128,12 +147,13 @@ main h2 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
     padding: 1rem;
-    max-width: 900;
+    max-width: 900px;
     margin: 0 auto;
 }
 
 .card {
-    background-color: #EADCC1; /* Oyster Shell */
+    background-color: #EADCC1;
+    /* Oyster Shell */
     border-radius: 8px;
     overflow: hidden;
     display: flex;
@@ -143,6 +163,7 @@ main h2 {
 .card-wide {
     grid-column: 1 / -1;
 }
+
 #about {
     width: 100%;
     max-width: 900px;
@@ -168,15 +189,18 @@ main h2 {
 }
 
 .card a {
-    color: #2B2118; /* Pluff Mud */
-    text-decoration-color: #84BFA4; /* Spanish Moss */
+    color: #2B2118;
+    /* Pluff Mud */
+    text-decoration-color: #84BFA4;
+    /* Spanish Moss */
     text-decoration-thickness: 2px;
     text-underline-offset: 3px;
 }
 
 .card a:hover,
 .card a:focus-visible {
-    background-color: #BFD9CD; /* Sea Mist */
+    background-color: #BFD9CD;
+    /* Sea Mist */
 }
 
 .featured-grid {
@@ -186,7 +210,8 @@ main h2 {
 }
 
 .featured-grid article {
-    background-color: #F2F2F2; /* Sea Salt */
+    background-color: #F2F2F2;
+    /* Sea Salt */
     padding: 1.25rem;
     border-radius: 8px;
 }
@@ -205,9 +230,9 @@ img {
     width: auto;
     max-width: 100%;
     max-height: 80vh;
-    height:auto;
+    height: auto;
     margin: 0 auto 1rem;
-    border-radius:8px;
+    border-radius: 8px;
 }
 
 .photo-grid {
@@ -218,7 +243,7 @@ img {
 
 .photo-grid img {
     width: 100%;
-    height:auto;
+    height: auto;
     margin-bottom: 0.75rem;
     border-radius: 4px;
     break-inside: avoid;
@@ -235,7 +260,8 @@ img {
 }
 
 .interest-list li {
-    background-color: #BFD9CD; /* Sea Mist */
+    background-color: #BFD9CD;
+    /* Sea Mist */
     padding: 0.4rem 0.8rem;
     border-radius: 999px;
 }
@@ -245,7 +271,8 @@ img {
 }
 
 /* Aside & Footer */
-aside, footer {
+aside,
+footer {
     padding: 1rem;
     text-align: center;
 }
@@ -253,8 +280,10 @@ aside, footer {
 .button {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    background-color: #84BFA4;   /* Spanish Moss */
-    color: #2B2118;  /* Pluff Mud */
+    background-color: #84BFA4;
+    /* Spanish Moss */
+    color: #2B2118;
+    /* Pluff Mud */
     font-weight: bold;
     text-decoration: none;
     border-radius: 999px;
@@ -262,7 +291,8 @@ aside, footer {
 
 .button:hover,
 .button:focus-visible {
-    background-color: #BFA36F; /* Marsh Grass */
+    background-color: #BFA36F;
+    /* Marsh Grass */
 }
 
 footer {
@@ -279,13 +309,17 @@ footer {
         font-size: 1.75rem;
         margin-bottom: 0.5rem;
         padding: 0.75rem 1rem;
-        display:flex;
+        display: flex;
         justify-content: center;
-        color: #BFA36F; /* Marsh Grass */ 
-        background-color:#2B2118; /* Pluff Mud */ 
+        color: #BFA36F;
+        /* Marsh Grass */
+        background-color: #2B2118;
+        /* Pluff Mud */
     }
 
-    #places ul, #people ul, #pets ul {
+    #places ul,
+    #people ul,
+    #pets ul {
         gap: 1rem;
         display: flex;
         flex-direction: row;
@@ -314,13 +348,13 @@ footer {
         width: auto;
         max-width: 100%;
         max-height: 60vh;
-        height:auto;
+        height: auto;
         margin: 0 auto 1rem;
-        border-radius:8px;
+        border-radius: 8px;
     }
 
-    .photo-grid {
-        column-count: 3;
+ .photo-grid {
+        grid-template-columns: repeat(4, 1fr);
         max-width: 900px;
         margin: 0 auto;
     }
